@@ -35,19 +35,20 @@ Merge Training and Test datasets:
 Test and training data, subject ids and activity ids are merged to get a single dataframe. variables are labelled based on features.txt given by UCI Machine Learning Repository.
 
 Extract mean and standard deviations and label the variables with descriptive names:
-1. From the merged data extract the values of mean and standard deviation.
-2. A new column is added to this data with the activity description.
-3. Descriptive labels were given for the variables given by the original collectors to make it more readable.
+1.	From the merged data extract the values of mean and standard deviation.
+2.	A new column is added to this data with the activity description.
+3.	Descriptive labels were given for the variables given by the original collectors to make it more readable.
 
 Create a tidy data set:
-1. From the data set a final tidy data set is created where numeric variables are averaged for each actvity and each subject.
-2. Tidy data set contains the following:
-  a. an activity label: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
-  b. an id of the subject who carried out the experiment:1, 3, 5, 6, 7, 8, 11, 14, 15, 16, 17, 19, 21, 22, 23, 25, 26, 27, 28, 29, 30
-  c. a vector with time & frequency signal variables
+1.	From the data set a final tidy data set is created where numeric variables are averaged for each actvity and each subject.
+2.	Tidy data set contains the following:
+a)	an activity label: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
+b)	an id of the subject who carried out the experiment:1, 3, 5, 6, 7, 8, 11, 14, 15, 16, 17, 19, 21, 22, 23, 25, 26, 27, 28, 29, 30
+c)	a vector with time & frequency signal variables
 
 References:
 [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
 
 Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012.
 Human Activity Recognition Using Smartphones Data Set. URL: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones.
+
